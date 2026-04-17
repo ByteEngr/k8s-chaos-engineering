@@ -27,7 +27,7 @@ With this framework, you can simulate failures like **pod crashes, network delay
 ## **📥 Clone This Project**  
 To set up the project locally, run:  
 ```sh
-git clone https://github.com/akintunero/k8s-chaos-engineering.git
+git clone https://github.com/ByteEngr/k8s-chaos-engineering.git
 cd k8s-chaos-engineering
 ```
 
