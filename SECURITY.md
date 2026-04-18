@@ -13,7 +13,7 @@ We provide security updates for the following versions:
 We take the security of our project seriously. If you believe you've found a security vulnerability, please follow these steps:
 
 1. **Do not** disclose the vulnerability publicly until it has been addressed by our team.
-2. Submit a detailed report to **akintunero101@gmail.com**.
+2. Submit a detailed report to **chimadurugoodness@gmail.com**.
 3. Include:
    - Description of the vulnerability
    - Steps to reproduce
@@ -60,5 +60,5 @@ We follow these security best practices:
 ## Contact
 
 For security-related concerns, please contact:
-- Email: **akintunero101@gmail.com**
+- Email: **chimadurugoodness@gmail.com**
 
