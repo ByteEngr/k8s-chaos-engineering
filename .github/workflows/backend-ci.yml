@@ -19,15 +19,12 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: "3.11"
-        cache: 'pip'
-        cache-dependency-path: web/backend/requirements.txt
     
     - name: Install dependencies
       working-directory: web/backend
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        pip install pytest pytest-asyncio httpx
+        pip install fastapi uvicorn pydantic pyyaml kubernetes pytest pytest-asyncio httpx
     
     - name: Run tests
       working-directory: web/backend
