@@ -199,3 +199,6 @@ reports/
 *.log
 logs/
 log/ 
+
+# Frontend build entrypoint must be versioned
+!web/frontend/index.html
