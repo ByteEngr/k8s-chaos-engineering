@@ -2,7 +2,6 @@ name: Tests
 
 on:
   push:
-    branches: [ main, develop ]
   pull_request:
     branches: [ main, develop ]
   workflow_call:  # Allow this workflow to be called by other workflows
@@ -41,9 +40,6 @@ jobs:
       if: always()
       with:
         file: ./coverage.xml
-        flags: unittests
-        name: codecov-umbrella
-        fail_ci_if_error: false
         flags: unittests
         name: codecov-umbrella
         fail_ci_if_error: false
