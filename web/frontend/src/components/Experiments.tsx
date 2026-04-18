@@ -2,16 +2,10 @@ import { useEffect, useState } from 'react'
 import { Play, Square, RefreshCw, AlertCircle } from 'lucide-react'
 import { api } from '../services/api'
 
-interface Experiment {
-  name: string
-  status?: string
-}
-
 export default function Experiments() {
   const [experiments, setExperiments] = useState<string[]>([])
   const [running, setRunning] = useState<string[]>([])
   const [loading, setLoading] = useState(true)
-  const [selectedExperiment, setSelectedExperiment] = useState<string | null>(null)
 
   useEffect(() => {
     loadExperiments()
@@ -37,7 +31,6 @@ export default function Experiments() {
   const handleRun = async (name: string) => {
     try {
       await api.runExperiment(name)
-      setSelectedExperiment(name)
       setTimeout(loadExperiments, 1000)
     } catch (error) {
       console.error('Error running experiment:', error)
