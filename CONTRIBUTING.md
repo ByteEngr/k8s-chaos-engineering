@@ -43,7 +43,7 @@ Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md) before contribu
 
 ```bash
 # Clone the repository
-git clone https://github.com/akintunero/k8s-chaos-engineering.git
+git clone https://github.com/ByteEngr/k8s-chaos-engineering.git
 cd k8s-chaos-engineering
 
 # Install dependencies
@@ -95,9 +95,9 @@ helm repo update
 
 This project is maintained by:
 
-**Olúmáyòwá Akinkuehinmi**  
-GitHub: [@akintunero](https://github.com/akintunero)  
-📧 Email: [akintunero101@gmail.com](mailto:akintunero101@gmail.com)
+**Goziechukwu Chima-Duru**  
+GitHub: [@ByteEngr](https://github.com/ByteEngr)  
+📧 Email: [chimadurugoodness@gmail.com](mailto:chimadurugoodness@gmail.com)
 
 ## License
 
