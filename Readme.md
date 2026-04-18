@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/github/license/akintunero/k8s-chaos-engineering?style=for-the-badge)  
 ![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)  
 
-##  Overview  
+##  Overview:
 The **Kubernetes Chaos Engineering Framework** helps teams **test, analyze, and improve resilience** of Kubernetes applications by injecting controlled failures using **LitmusChaos**.  
 
 With this framework, you can simulate failures like **pod crashes, network delays, CPU stress, and more**, ensuring that your cloud-native applications are **fault-tolerant and highly available**.  
